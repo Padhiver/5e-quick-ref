@@ -12,17 +12,6 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Lancer un sort",
-        icon: "magic-swirl",
-        subtitle: "Durée d'incantation d'une action bonus",
-        description: "Lancer un sort avec une durée d'incantation d'une action bonus",
-        reference: "PHB, pg. 189,202.",
-        bullets: [
-            "Pour lancer un sort en action bonus, il ne faut pas avoir lancé un autre sort lors de votre action, à moins que ce sort ne soit un tour de magie dont la durée est d'une action.",
-            "Pour plus de détails merci de vous référer à l'action <i>Lancer un sort</i>."
-        ]
-    },
-    {
         title: "Utiliser une aptitude",
         icon: "embrassed-energy",
         subtitle: "Certains talents ou pouvoirs ",
