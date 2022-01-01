@@ -21,16 +21,5 @@ data_reaction = [
         bullets: [
             "Le déclencheur a été défini par votre action <i>se tenir prêt</i>."
         ]
-    },
-    {
-        title: "Lancer un sort",
-        icon: "magic-swirl",
-        subtitle: "Durée d'incantation d'une réaction",
-        description: "Durée d'incantation d'une réaction",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "Un sort peut être utilisé comme action de réaction lorsque cela est spécifié dans sa description.",
-            "Voir l'action <i>Lancer un sort</i> pour plus de détails."
-        ]
     }
 ]
