@@ -103,7 +103,7 @@ data_movement = [
         ]
     },
     {
-        title: "Se Relever",
+        title: "Se relever",
         icon: "strong",
         subtitle: "Coût: Moitié de la vitesse",
         description: "Coût du déplacement : La Moitié de votre vitesse totale",

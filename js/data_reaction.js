@@ -12,6 +12,17 @@ data_reaction = [
             "Une téléportation, un déplacement subit ne donne pas droit à cette attaque. Il faut que la créature ciblée utilise sa vitesse, une action ou réaction pour rendre l'attaque d'opportunité possible."
         ]
     },
+	   {
+        title: "Lancer un sort",
+        icon: "magic-swirl",
+        subtitle: "Durée d'incantation d'une réaction",
+        description: "Durée d'incantation d'une réaction",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "Un sort peut être utilisé comme action de réaction lorsque cela est spécifié dans sa description.",
+            "Voir l'action <i>Lancer un sort</i> pour plus de détails."
+        ]
+    },
     {
         title: "Se tenir prêt",
         icon: "stopwatch",

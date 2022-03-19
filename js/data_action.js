@@ -11,7 +11,7 @@ data_action = [
             "Cet avantage se terminera dès le commencement de votre prochain tour."
         ]
     },
-	{
+    {
         title: "Attaquer",
         icon: "crossed-swords",
         subtitle: "Corps à corps ou à distance",
@@ -37,8 +37,8 @@ data_action = [
             "Vous devez effectuer un test d'opposition à la place d'un jet d'attaque. C'est à dire un test de Force (Athlétisme) opposé à un test de Force (Athlétisme) ou de Dextérité (Acrobaties) au choix de votre cible.",
             "Si vous remportez ce test d'opposition, vous avez le choix entre faire tomber votre cible à terre, ou bien la répousser d'une distance de 1,50 mètres de vous."
         ]
-    },    
-	{
+    },  
+		{
         title: "Chercher",
         icon: "magnifying-glass",
         subtitle: "Chercher quelque chose",
@@ -62,8 +62,8 @@ data_action = [
             "La cible du désarmement reçoit un bonus de +3 à la CA et ne reçoit pas de dégât en cas de réussite de votre part.",
         ]
     },
-    {
-        title: "Empoigner",
+	{
+	        title: "Empoigner",
         icon: "grab",
         subtitle: "Attaque spéciale de corps à corps",
         description: "Vous tentez d'empoigner une créature ou de lutter avec elle",
@@ -75,7 +75,7 @@ data_action = [
             "Si vous réussissez votre test d'opposition, votre cible est empoignée. Ce qui correspond à des états spéciaux décrits dans la section des états."
         ]
     },
-	    {
+		    {
         title: "Esquiver",
         icon: "aura",
         subtitle: "Eviter les attaques",
@@ -86,7 +86,18 @@ data_action = [
             "Vous perdez l'avantage conféré à cette action si vous êtes dans l'état <i>neutralisé (voir états) </i> ou si votre vitesse est à 0."
         ]
     },
-	{
+	 {
+        title: "Foncer",
+        icon: "sprint",
+        subtitle: "Double la vitesse de mouvement",
+        description: "Vous doublez votre vitesse de mouvement lors de ce tour",
+        reference: "PHB, pg. 192,193.",
+        bullets: [
+            "Ce bonus de déplacement est égal à votre vitesse, après avoir appliqué tous vos modificateurs éventuels. Tout effet qui augmente ou réduit votre vitesse modifie du même montant votre bonus de déplacement.",
+			"Ainsi, si votre vitesse de 9 mètres est réduite à 4,50 mètres, votre action se précipiter vous permettra d'effectuer un déplacement de 9 mètres à votre tour."
+        ]
+    },
+		{
         title: "Improviser une action",
         icon: "juggler",
         subtitle: "Autre action non listée ici",
@@ -96,7 +107,21 @@ data_action = [
             "Si vous souhaitez réaliser une action qui n'est pas décrite dans les règles, parlez en à votre MD pour savoir si cette action est recevable, et si un jet de caractéristique est nécessaire pour en déterminer le succès ou l'échec."
         ]
     },
-	{
+	    {
+        title: "Lancer un sort",
+        icon: "magic-swirl",
+        subtitle: "Durée d'incantation d'une action",
+        description: "Lancer un sort avec une durée d'incantation d'une action",
+        reference: "PHB, pg. 192,202,204.",
+        bullets: [
+            "Pour utiliser une action de lancer un sort, il ne faut pas avoir lancé un autre sort lors de votre action bonus, à moins que ce sort ne soit un tour de magie dont la durée est d'une action.",
+            "La cible d'un sort doit être à portée de ce sort. Pour viser une chose, l'incantateur doit avoir une vue dégagée entre elle est lui. La cible ne doit pas bénéficier d'un abri total.",
+            "Certains sorts nécessitent l'utilisation de composantes matérielles pour être lancés. A moins qu'elles ne soient listées explicitement, vous pouvez considérer que ces composantes se trouvent par defaut dans la sacoche du lanceur de sort.",
+            "Pour certains sorts, l'incantateur doit maintenir sa concentration au delà du temps requis pour une seule action. Si vous perdez vous concentration, le sort est perdu. La perte de concentration peut être liée à un arrêt volontaire du lanceur de sort pour en lancer un autre ou à un changement d'état, comme neutralisé (voir états).",
+			"Si l'incantateur subit des dégâts pendant sa concentration, il doit réussir un jet de sauvegarde de Constitution. Le DD est de 10 ou la moitié du total de dégâts reçus si plusieurs attaques lui sont portées. Par contre il doit effectuer un jet de sauvegarde dès qu'une attaque réussie lui fait des dégâts."
+        ]
+    },
+		{
         title: "Monter une créature",
         icon: "strong",
         subtitle: "Vous grimpez sur une créature",
@@ -110,7 +135,7 @@ data_action = [
 			"La créature montée peut utiliser une action pour tenter de vous déloger. Effectuez un test d'opposition de Force (Athlétisme) ou de Dextérité (Acrobatie) pour déterminer l'issue de cette action. Le choix de la caractéristique utilisée vous revient."
         ]
     },
-	{
+		{
         title: "Se cacher",
         icon: "hood",
         subtitle: "Tentative pour se cacher",
@@ -124,16 +149,7 @@ data_action = [
             "Vous pouvez également utiliser l'action se cacher hors combat, pour vous faufiler ou déjouer la vigilance de gardes. Dans ce cas, un test de Dextérité (Discrétion) sera alors nécessaire."
         ]
     },
-	    {
-        title: "Se désengager",
-        icon: "journey",
-        subtitle: "Eviter les attaques d'opportunité",
-        description: "Vous pouvez vous déplacer sans provoquer d'attaques d'opportunité jusqu'à la fin de votre tour.",
-        reference: "PHB, pg. 192.",
-        bullets: [
-        ]
-    },
-	{
+		{
         title: "Se libérer",
         icon: "manacles",
         subtitle: "Se libérer d'une empoignade",
@@ -143,19 +159,16 @@ data_action = [
             "Une créature empoignée peut utiliser une action pour se libérer Vous devez réussir un test de Force (Athlétisme) ou de Dextérité (Acrobaties) opposé à un test de Force (Athlétisme)."
         ]
     },
-    {
-        title: "Se précipiter",
-        icon: "sprint",
-        subtitle: "Double la vitesse de mouvement",
-        description: "Vous doublez votre vitesse de mouvement lors de ce tour",
-        reference: "PHB, pg. 192,193.",
+		    {
+        title: "Se désengager",
+        icon: "journey",
+        subtitle: "Eviter les attaques d'opportunité",
+        description: "Vous pouvez vous déplacer sans provoquer d'attaques d'opportunité jusqu'à la fin de votre tour.",
+        reference: "PHB, pg. 192.",
         bullets: [
-            "Ce bonus de déplacement est égal à votre vitesse, après avoir appliqué tous vos modificateurs éventuels. Tout effet qui augmente ou réduit votre vitesse modifie du même montant votre bonus de déplacement.",
-			"Ainsi, si votre vitesse de 9 mètres est réduite à 4,50 mètres, votre action se précipiter vous permettra d'effectuer un déplacement de 9 mètres à votre tour."
         ]
     },
-
-	{
+		{
         title: "Se tenir prêt",
         icon: "stopwatch",
         subtitle: "Réagir sous condition à votre tour",
@@ -167,8 +180,8 @@ data_action = [
             "En réponse à l'action prévue, vous pouvez décider de vous déplacer à la place d'une distance inférieure ou égale à votre vitesse.",
             "Quand vous préparer un sort dans le cadre de cette action, vous le lancez normalement mais vous contenez son énergie jusqu'au moment du déclencheur de cette action. Sauf si, votre concentration est interrompue, entrainant la dissipation des effets attendus du sort."
         ]
-    },		
-	{
+    },
+		{
         title: "Stabiliser une créature",
         icon: "first-aid",
         subtitle: "Stabiliser une créature mourante",
@@ -180,7 +193,7 @@ data_action = [
             "Une créature stable regagne 1 point de vie après 1d4 heures."
         ]
     },
-    {
+	    {
         title: "Utiliser un bouclier",
         icon: "round-shield",
         subtitle: "S'équiper ou enlever un bouclier",
@@ -191,7 +204,7 @@ data_action = [
             "Pour contre il vous faudra une à plusieurs minutes pour enfiler ou ôter une armure."
         ]
     },
-	{
+		{
         title: "Utiliser un objet",
         icon: "snatch",
         subtitle: "Intéragir avec un objet",
@@ -212,5 +225,5 @@ data_action = [
         bullets: [
 
         ]
-	}
+    }
 ]
