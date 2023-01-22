@@ -4,7 +4,7 @@
 .section-container {
     margin-top: 20px;
     background: none;
-    border-image-source: url(/aide-de-jeu/art/ui-board-stone.png);
+    border-image-source: url(/art/ui-board-stone.png);
     border-image-repeat: repeat;
     border-image-slice: 60 fill;
     border-image-width: 20px;
@@ -16,7 +16,7 @@
 }
 
 .section-content {
-    border-image-source: url(/aide-de-jeu/art/ui-board-parchment.png);
+    border-image-source: url(/art/ui-board-parchment.png);
     border-image-repeat: repeat;
     border-image-slice: 85 fill;
     border-image-width: 20px;
@@ -31,7 +31,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url(/aide-de-jeu/art/ui-title-iron.png);
+    background-image: url(/art/ui-title-iron.png);
     background-size: 100% 100%;
     display: -webkit-box;
     display: -ms-flexbox;
