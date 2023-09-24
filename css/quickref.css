@@ -105,7 +105,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-family: Pathfinder2eActions;
 }
 
 .item-text-container {
@@ -115,6 +114,9 @@
     height: 100%;
 }
 
+.pf2-action {
+    font-family: Pathfinder2eActions, sans-serif;
+}
 
 /* ------------------------------------------------------------------------- */
 /* Colors */
@@ -267,10 +269,10 @@ p:first-child {
 
 /* Smart phone, portrait */
 @media (min-width:    0px) and (max-width:  479px) {
-    .fontsize { font-size: 12pt; } 
-    .iconsize { width: 44px; height: 44px;} 
-    .itemsize { height: 44px; width: 100%; } 
-    .modalsize {} 
+    .fontsize { font-size: 12pt; }
+    .iconsize { width: 44px; height: 44px;}
+    .itemsize { height: 44px; width: 100%; }
+    .modalsize {}
 }
 
 /* Smart phone, landscape */
