@@ -10,7 +10,7 @@ function add_quickref_item(parent, data, type) {
     <div class="item-icon iconsize icon-' + icon + '"></div>\
     <div class="item-text-container text">\
         <div class="item-title">' + title + '</div>\
-        <div class="item-desc">' + subtitle + '</div>\
+        <div class="item-desc pf2-action">' + subtitle + '</div>\
     </div>\
     ';
 
@@ -24,9 +24,47 @@ function add_quickref_item(parent, data, type) {
     parent.appendChild(item);
 }
 
+function get_action_html(data) {
+  if (!data.subtitle) {
+    return '';
+  }
+
+  var actionText = '';
+
+  switch (data.subtitle) {
+    case 'A':
+    // cascade
+    case 'a':
+      actionText = '1 action';
+      break;
+    case 'D':
+    // cascade
+    case 'd':
+      actionText = '2 actions';
+      break;
+    case 'T':
+    // cascade
+    case 't':
+      actionText = '3 actions';
+      break;
+    case 'F':
+    // cascade
+    case 'f':
+      actionText = 'Action gratuite';
+      break;
+    case 'R':
+    // cascade
+    case 'r':
+      actionText = 'Réaction';
+      break;
+  }
+
+  return '<span class="pf2-action">' + data.subtitle + '</span> ' + actionText;
+}
+
 function show_modal(data, color, type) {
     var title = data.title || "[no title]";
-    var subtitle = data.description || data.subtitle || "";
+    var subtitle = [(data.description || ''), get_action_html(data)].filter(v => v.length).join("<br />");
     var bullets = data.bullets || [];
     var reference = data.reference || "";
     type = type || "";
