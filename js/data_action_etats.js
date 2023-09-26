@@ -14,7 +14,7 @@ data_action_etats = [
     },
     {
         title: "Accéléré",
-        icon: "crawl",
+        icon: "beams-aura",
         description: "Vous gagnez une action supplémentaire au début de votre tour à chaque round.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -24,7 +24,7 @@ data_action_etats = [
     },
     {
         title: "Affaibli",
-        icon: "crawl",
+        icon: "death-juice",
         description: "Vous êtes physiquement affaibli.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -34,7 +34,7 @@ data_action_etats = [
     },
     {
         title: "Amical",
-        icon: "crawl",
+        icon: "three-friends",
         description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -44,7 +44,7 @@ data_action_etats = [
     },
     {
         title: "Aveugle",
-        icon: "crawl",
+        icon: "blindfold",
         description: "Vous ne pouvez pas voir.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -57,7 +57,7 @@ data_action_etats = [
     },
     {
         title: "Blessé",
-        icon: "crawl",
+        icon: "ragged-wound",
         description: "Vous avez été gravement blessé.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -69,7 +69,7 @@ data_action_etats = [
     },
     {
         title: "Brisé",
-        icon: "crawl",
+        icon: "broken-skull",
         description: "Brisé est un état affectant les objets.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -82,7 +82,7 @@ data_action_etats = [
     },
     {
         title: "Caché",
-        icon: "crawl",
+        icon: "hidden",
         description: "Quand vous êtes caché d’une créature, celle-ci sait dans quel espace vous vous trouvez, mais elle ne peut pas dire précisément où vous vous trouvez.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -94,7 +94,7 @@ data_action_etats = [
     },
     {
         title: "Condamné",
-        icon: "crawl",
+        icon: "grim-reaper",
         description: "Votre âme se trouve sous le joug d’une puissante force qui vous pousse toujours plus près de la mort.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -105,7 +105,7 @@ data_action_etats = [
     },
     {
         title: "Confus",
-        icon: "crawl",
+        icon: "brain-freeze",
         description: "Vous êtes déconcerté et vous attaquez à l’aveuglette.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -118,7 +118,7 @@ data_action_etats = [
     },
     {
         title: "Contrôlé",
-        icon: "crawl",
+        icon: "brain-tentacle",
         description: "Quelqu’un prend des décisions à votre place, en exerçant généralement un contrôle sur vous par le biais d’une injonction ou d’une domination magique. ",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -128,7 +128,7 @@ data_action_etats = [
     },
     {
         title: "Dégâts persistants",
-        icon: "crawl",
+        icon: "burning-skull",
         description: "Les dégâts persistants sont causés par des effets comme l’acide, le feu ou de nombreuses autres choses.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -139,7 +139,7 @@ data_action_etats = [
     },
     {
         title: "Drainé",
-        icon: "crawl",
+        icon: "fangs",
         description: "Vous vous affaiblissez quand une créature réussit à drainer votre sang ou votre force vitale.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -150,7 +150,7 @@ data_action_etats = [
     },
     {
         title: "Ébloui",
-        icon: "crawl",
+        icon: "lightning-tear",
         description: "Vos yeux ont été soumis à un excès de stimuli.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -159,7 +159,7 @@ data_action_etats = [
     },
     {
         title: "Effrayé",
-        icon: "crawl",
+        icon: "terror",
         description: "Vous êtes paralysé par la peur et vous luttez pour ne pas céder à la panique.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -169,7 +169,7 @@ data_action_etats = [
     },
     {
         title: "Empoigné",
-        icon: "crawl",
+        icon: "grab",
         description: "Vous êtes maintenu en place par une autre créature, ce qui vous confère les états pris au dépourvu et immobilisé.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -178,7 +178,7 @@ data_action_etats = [
     },
     {
         title: "En fuite",
-        icon: "crawl",
+        icon: "sprint",
         description: "La peur ou une autre forme de compulsion vous contraint à prendre la fuite.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -189,7 +189,7 @@ data_action_etats = [
     },
     {
         title: "Entravé",
-        icon: "crawl",
+        icon: "manacles",
         description: "Vous êtes attaché et ne pouvez pas bouger, ou une créature vous a saisi et immobilisé.",
         reference: "LDB, pg. 471.",
         bullets: [
@@ -199,218 +199,267 @@ data_action_etats = [
     },
     {
         title: "Étourdi",
-        icon: "crawl",
-        description: "",
+        icon: "star-struck",
+        description: "Vous êtes hébété.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous ne pouvez pas agir tant que vous êtes étourdi.",
+            "L’état étourdi est toujours accompagné d’une intensité qui indique la quantité d’actions que vous perdez, parfois pendant plusieurs tours, du fait de cet état. À chaque fois que vous regagnez des actions (au début de votre tour, par exemple), vous réduisez la quantité d’actions regagnées de l’intensité de votre état étourdi, puis réduisez l’intensité de votre état par le nombre d’actions que vous avez perdues. Par exemple, si vous êtes étourdi 4, vous perdez vos 3 actions au début de votre tour et vous devenez alors étourdi 1. Lors de votre prochain tour, vous perdrez une action supplémentaire, puis vous pourrez utiliser vos 2 actions restantes normalement.",
+            "L’état étourdi peut également être accompagné d’une durée à la place d’une intensité, comme « étourdi pendant 1 min ». Dans ce cas-là, vous perdez toutes vos actions pour la durée indiquée.",
+            "L’état étourdi est prépondérant sur l’état ralenti. Si la durée de votre état étourdi prend fin alors que vous êtes ralenti, les actions perdues du fait de l’état étourdi sont prises en compte dans le décompte des actions perdues du fait de l’état ralenti. Ainsi, si vous êtes étourdi 1 et ralenti 2 au début de votre tour, vous perdez 1 action à cause de l’état étourdi puis perdez 1 action supplémentaire car vous êtes ralenti, et il vous reste 1 action à utiliser pour ce tour."
         ]
     },
     {
         title: "Fasciné",
-        icon: "crawl",
-        description: "",
+        icon: "brass-eye",
+        description: "Votre attention est irrésistiblement attirée par quelque chose et vous ne faites plus attention à ce qui se déroule autour de vous.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous subissez un malus de statut de −2 à vos tests de Perception et de compétences et vous ne pouvez pas entreprendre d’actions dotées du trait concentration, sauf si ces actions ou leurs conséquences sont liées à l’objet de votre fascination (avec l’accord du MJ). Par exemple, vous pourrez probablement Chercher et Vous souvenir de quelque chose par rapport au sujet de votre fascination, mais vous ne pourrez normalement pas lancer de sort ciblant une autre créature.",
+            "Cet état prend fin si une créature entreprend une action hostile contre vous ou n’importe lequel de vos alliés."
         ]
     },
     {
         title: "Fatigué",
-        icon: "crawl",
-        description: "",
+        icon: "tired-eye",
+        description: "Vous êtes fatigué et n’arrivez pas à rassembler vos forces.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous subissez un malus de statut de −1 à votre CA et à vos jets de sauvegarde.",
+            "Quand vous explorez, vous ne pouvez pas choisir d’activité d’exploration.",
+            "Vous vous remettez de l’état fatigué au terme d’une nuit complète de repos."
         ]
     },
     {
         title: "Hostile",
-        icon: "crawl",
-        description: "",
+        icon: "monster-grasp",
+        description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Une créature hostile souhaite activement faire du mal au personnage qui lui inspire cette attitude. Elle ne l’attaquera pas nécessairement, mais refusera d’accéder aux Sollicitations de ce personnage."
         ]
     },
     {
         title: "Immobilisé",
-        icon: "crawl",
-        description: "",
+        icon: "imprisoned",
+        description: "Vous ne pouvez entreprendre aucune action dotée du trait déplacement.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Si vous êtes immobilisé par quelque chose qui vous maintient en place et qu’une force extérieure tente de vous faire quitter votre espace, cette force doit réussir un test contre le DD de l’effet ou la défense adaptée (généralement le DD de Vigueur) du monstre qui vous maintient en place."
         ]
     },
     {
         title: "Inamical",
-        icon: "crawl",
-        description: "",
+        icon: "suspicious",
+        description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Une créature inamicale n’apprécie pas un personnage en particulier et elle ne lui fait pas confiance. Elle refusera toutes les Sollicitations de ce personnage."
         ]
     },
     {
         title: "Inaperçu",
-        icon: "crawl",
-        description: "",
+        icon: "palm-tree",
+        description: "Si vous êtes inaperçu aux yeux d’une créature, elle n’a aucune conscience de votre présence.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Quand vous êtes inaperçu par une créature, vous êtes également non détecté par elle.",
+            "Cet état intervient dans le cadre de pouvoirs qui peuvent seulement être utilisés contre des cibles qui n’ont aucune conscience de votre présence."
         ]
     },
     {
         title: "Inconscient",
-        icon: "crawl",
-        description: "",
+        icon: "coma",
+        description: "Vous dormez ou avez été assommé.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous ne pouvez pas faire d’action.",
+            "Vous subissez un malus de −4 à votre CA, à votre Perception et à vos jets de Réflexes et vous vous trouvez dans les états aveugle et pris au dépourvu.",
+            "Quand vous gagnez cet état, vous tombez à terre et lâchez les objets que vous tenez en main, sauf si l’effet précise le contraire ou que le MJ détermine que vous êtes dans une situation qui ne s’y prête pas.",
+            "Si vous êtes inconscient parce que vous êtes mourant, vous ne pouvez pas vous réveiller tant que vous êtes réduit à 0 point de vie.",
+            "Si vous regagnez 1 point de vie ou plus grâce à des soins, vous perdez les états mourant et inconscient et vous pouvez agir normalement lors de votre prochain tour.",
+            "Si vous êtes inconscient et avez 0 point de vie mais n’êtes pas mourant, vous regagnez naturellement 1 point de vie et vous éveillez au bout d’un certain temps. Le MJ détermine alors combien de temps vous êtes inconscient : un intervalle allant de 10 min à plusieurs heures.",
+            "Si vous recevez des soins pendant cet intervalle de temps, vous perdez l’état inconscient et pouvez agir normalement lors de votre prochain tour.",
+            "Si vous êtes inconscient et avez plus de 1 point de vie (généralement parce qu’un effet vous a endormi ou rendu inconscient), vous pouvez vous réveiller pour l’une des raisons suivantes. Chacune vous fait perdre l’état inconscient." +
+            "<ul>" +
+            "<li>Vous subissez des dégâts qui ne vous réduisent pas à 0 point de vie. Si ces dégâts vous réduisent à 0 point de vie, vous restez inconscient et gagnez également l’état mourant.</li>" +
+            "<li>Vous êtes soumis à un effet de guérison, autre que la guérison naturelle dont vous bénéficiez en vous reposant.</li>" +
+            "<li>Quelqu’un vous réveille avec une action d’Interaction. • Un bruit fort se produit alentour. Vous ne vous réveillez cependant pas automatiquement. Au début de votre tour, vous faites automatiquement un test de Perception contre le DD du bruit (ou, s’il s’agit de plusieurs bruits, le DD le moins élevé). Sur un succès, vous vous réveillez. Si des créatures se trouvent autour de vous et tentent de rester discrètes, ce test de Perception est fait contre leur DD de Discrétion. Certains effets magiques vous font sombrer dans un sommeil si profond que vous ne pouvez pas faire ce test de Perception.</li>" +
+            "<li>Si vous êtes simplement endormi, le MJ peut décider que vous vous réveillez parce que vous avez assez dormi ou parce que quelque chose a troublé votre sommeil.</li>" +
+            "</ul>"
         ]
     },
     {
         title: "Indifférent",
-        icon: "crawl",
-        description: "",
+        icon: "walk",
+        description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Une créature indifférente n’a aucun préjugé positif ou négatif envers ce personnage.",
+            "Sauf indication contraire, partez du principe que l’attitude par défaut d’une créature envers un personnage est indifférente."
         ]
     },
     {
         title: "Invisible",
-        icon: "crawl",
-        description: "",
+        icon: "invisible",
+        description: "Vous ne pouvez pas être vu tant que vous êtes invisible.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous êtes non détecté aux yeux de tout le monde. Les créatures peuvent cependant vous Chercher pour tenter de vous détecter. Si une créature réussit un test de Perception opposé à votre DD de Discrétion, vous vous trouvez dans l’état caché par rapport à cette créature jusqu’à ce que vous fassiez preuve de Furtivité pour redevenir non détecté.",
+            "Si vous devenez invisible alors que quelqu’un peut vous voir, vous commencez par vous trouver dans l’état caché par rapport à ce témoin (au lieu de non détecté) jusqu’à ce que vous vous déplaciez Furtivement.",
+            "Tant que vous êtes invisible, vous ne pouvez pas devenir observé, sauf si une créature fait appel à des pouvoirs spéciaux ou de la magie."
         ]
     },
     {
         title: "Malade",
-        icon: "crawl",
-        description: "",
+        icon: "dead-head",
+        description: "Vous vous sentez malade.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "L’état malade est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette valeur à tous vos tests et DD.",
+            "Quand vous êtes malade, vous ne pouvez pas volontairement ingérer quelque chose, y compris des élixirs et des potions.",
+            "Vous pouvez dépenser une action unique pour tenter de vomir afin de vous remettre de cet état. Vous faites alors immédiatement un jet de Vigueur contre le DD de l’effet qui vous a rendu malade. Sur un <b>succès</b>, vous réduisez l’intensité de l’état malade de 1 (ou de 2 sur un <b>succès critique</b>)."
         ]
     },
     {
         title: "Maladroit",
-        icon: "crawl",
-        description: "",
+        icon: "broken-axe",
+        description: "Vos mouvements deviennent maladroits et incertains.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "L’état maladroit est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à l’intensité de l’état et qui s’applique à vos tests et vos DD basés sur la Dextérité, comme votre CA, vos jets de Réflexes, vos jets d’attaque à distance et vos tests de compétences basés sur Acrobaties, Discrétion et Vol."
         ]
     },
     {
         title: "Masqué",
-        icon: "crawl",
-        description: "",
+        icon: "double-face-mask",
+        description: "Tant que vous êtes masqué face à une créature (si vous êtes dans un épais brouillard, par exemple), cette créature a du mal à vous voir.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous pouvez toujours être observé, mais vous êtes plus difficile à cibler. Une créature face à laquelle vous êtes masqué doit réussir un test nu DD 5 pour pouvoir vous prendre pour cible avec une attaque, un sort ou un autre effet. Les zones d’effet ne sont pas sujettes à ce test nu. Si le test échoue, l’attaque, le sort ou l’effet ne vous affecte pas."
         ]
     },
     {
         title: "Mourant",
-        icon: "crawl",
-        description: "",
+        icon: "half-dead",
+        description: "Vous vous videz de votre sang ou vous trouvez aux portes de la mort pour une autre raison.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Tant que vous êtes dans cet état, vous êtes inconscient.",
+            "L’état mourant est toujours associé à une intensité et, si celle-ci atteint mourant 4, vous mourez.",
+            "Si vous êtes mourant, vous devez faire un test de récupération (page 459) au début de chacun de vos tours afin de déterminer si votre état s’améliore ou empire.",
+            "L’intensité de votre état mourant augmente de 1 si vous subissez des dégâts pendant que vous êtes mourant, ou de 2 si vous subissez des dégâts infligés par un coup critique ou que vous obtenez un échec critique à votre jet de sauvegarde.",
+            "Si vous quittez l’état mourant parce que vous avez réussi un test de récupération mais que vous êtes toujours à 0 point de vie, vous restez dans l’état inconscient, mais vous pouvez vous réveiller comme expliqué dans le descriptif de cet état.",
+            "Si jamais vous regagnez un point de vie ou plus, vous quittez l’état mourant automatiquement et vous vous réveillez.",
+            "À chaque fois que vous quittez l’état mourant, vous gagnez l’état blessé 1, ou augmentez l’intensité de votre état blessé de 1 si vous êtes déjà affecté par cet état."
         ]
     },
     {
         title: "Non detécté",
-        icon: "crawl",
-        description: "",
+        icon: "ninja-mask",
+        description: "Quand vous êtes non détecté par une créature, celle-ci ne peut pas vous voir du tout, elle n’a aucune idée de l’espace que vous occupez et elle ne peut pas vous prendre pour cible. Vous pouvez cependant toujours être affecté par les pouvoirs qui ciblent une zone.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Quand vous êtes non détecté par une créature, celle-ci se trouve prise au dépourvu face à vous.",
+            "Une créature face à laquelle vous êtes non détecté peut tenter de deviner quelle case vous occupez afin de vous prendre pour cible. Elle doit alors désigner une case et tenter une attaque. Le fonctionnement est alors le même que pour cibler une créature cachée (qui nécessite de faire un test nu DD 11), mais le test nu et le jet d’attaque sont faits en secret par le MJ qui ne précise alors pas si l’attaque échoue à cause d’un échec du test nu, du jet d’attaque ou d’un mauvais choix de case. Une créature peut entreprendre l’action Chercher pour tenter de vous trouver."
         ]
     },
     {
         title: "Observé",
-        icon: "crawl",
-        description: "",
+        icon: "microscope",
+        description: "Tout ce qui est clairement visible est observé en ce qui vous concerne.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Si une créature prend des dispositions pour éviter d’être détectée, en utilisant Discrétion pour Se cacher par exemple, elle peut devenir cachée ou non détectée au lieu d’observée.",
+            "Si vous bénéficiez d’un autre sens précis à la place ou en plus de votre vue, vous pourrez peut-être observer cette créature ou cet objet à l’aide de ce sens.",
+            "Vous ne pouvez observer une créature qu’à l’aide de sens précis.",
+            "Quand vous Cherchez une créature à l’aide de sens imprécis, celle-ci reste cachée plutôt qu’observée."
         ]
     },
     {
         title: "Paralysé",
-        icon: "crawl",
-        description: "",
+        icon: "internal-injury",
+        description: "Votre corps est figé sur place.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous êtes pris au dépourvu et ne pouvez pas agir, sauf pour Vous souvenir de quelque chose et entreprendre des actions qui font seulement appel à votre esprit (ces actions sont déterminées par le MJ).",
+            "Vos sens fonctionnent toujours, mais votre perception est limitée aux zones que vous pouvez percevoir sans bouger votre corps, vous n’êtes donc pas capable de Chercher."
         ]
     },
     {
         title: "Pétrifié",
-        icon: "crawl",
-        description: "",
+        icon: "stone-bust",
+        description: "Vous avez été changé en pierre.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous ne pouvez pas agir ou sentir quoi que ce soit.",
+            "Vous devenez un objet dont l’Encombrement est le double de votre Encombrement normal (généralement 12 pour une créature Moyenne pétrifiée ou 6 pour une Petite créature pétrifiée), avec CA 9, Solidité 8 et la même quantité de points de vie que vous aviez de votre vivant. Vous n’avez pas de Seuil de rupture.",
+            "Quand vous redevenez une créature de chair et de sang, vous conservez la même quantité de points de vie que vous aviez en tant que statue.",
+            "Si la statue est détruite, vous mourrez immédiatement.",
+            "Tant que vous êtes pétrifié, votre corps et votre esprit se trouvent en stase et vous ne vieillissez pas ni ne remarquez le temps qui passe."
         ]
     },
     {
         title: "Pris au dépourvu",
-        icon: "crawl",
-        description: "",
+        icon: "surprised",
+        description: "Vous êtes distrait, ou quelque chose d’autre vous empêche de vous concentrer entièrement sur vos défenses.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous subissez un malus de circonstances de −2 à votre CA.",
+            "Certains effets vous confèrent l’état pris au dépourvu seulement face à certaines créatures ou certaines attaques. D’autres, notamment les états, vous rendent pris au dépourvu contre tout.",
+            "Si une règle ne précise pas que cet état est seulement valable dans une situation donnée, il est valable pour toutes les situations. Par exemple, de nombreux effets précisent simplement : « la cible est prise au dépourvu »."
         ]
+
     },
     {
         title: "Ralenti",
-        icon: "crawl",
-        description: "",
+        icon: "team-downgrade",
+        description: "Vous perdez des actions.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "L’état ralenti est toujours accompagné d’une intensité. Quand vous regagnez des actions au début de votre tour, vous réduisez la quantité d’actions que vous gagnez par l’intensité de votre état ralenti.",
+            "Dans la mesure où l’état ralenti produit son effet au début de votre tour, vous ne perdez pas immédiatement des actions si vous gagnez cet état lors de votre tour."
         ]
     },
     {
         title: "Serviable",
-        icon: "crawl",
-        description: "",
+        icon: "paranoia",
+        description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Une créature serviable souhaite activement aider le personnage qui lui inspire cette attitude.",
+            "Elle acceptera que ce personnage la Sollicite, tant que ces requêtes n’iront pas à l’encontre des objectifs ou de la qualité de vie de la créature serviable.",
+            "Si le personnage ou l’un de ses alliés entreprend une action hostile contre la créature, l’attitude de cette dernière se dégrade proportionnellement à l’hostilité de l’action, dont le degré est déterminé par le MJ."
         ]
     },
     {
         title: "Sourd",
-        icon: "crawl",
-        description: "",
+        icon: "human-ear",
+        description: "Vous ne pouvez pas entendre.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Vous échouez automatiquement à tous les tests de Perception qui reposent sur votre audition.",
+            "Vous subissez un malus de statut de −2 à vos tests de Perception destinés à déterminer l’initiative et aux tests en rapport avec le son et d’autres sens.",
+            "Si vous accomplissez une action qui a le trait audible, vous devez réussir un test nu DD 5 ou perdre l’action. Vous faites ce test après avoir dépensé l’action mais avant d’appliquer ses effets. Vous êtes immunisé contre les effets audibles."
         ]
     },
     {
         title: "Stupéfié",
-        icon: "crawl",
-        description: "",
+        icon: "brain-dump",
+        description: "Vos pensées et votre instinct sont embrouillés.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "L’état stupéfié est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette intensité qui s’applique à vos tests et vos DD basés sur l’Intelligence, la Sagesse et le Charisme, dont vos jets de Volonté, vos jets d’attaques de sorts, vos DD de sorts et vos tests de compétences basés sur ces caractéristiques.",
+            "À chaque fois que vous tentez de Lancer un sort quand vous êtes stupéfié, ce sort est interrompu, sauf si vous réussissez un test nu dont le DD est égal à 5 + l’intensité de votre état stupéfié."
         ]
     },
     {
         title: "Surchargé",
-        icon: "crawl",
-        description: "",
+        icon: "weight-lifting-down",
+        description: "Vous transportez plus de poids que vous ne pouvez en gérer.",
         reference: "LDB, pg. 471.",
         bullets: [
-            ""
+            "Tant que vous êtes surchargé, vous êtes maladroit 1 et vous subissez un malus de 3 m à toutes vos Vitesses. Comme pour l’ensemble des malus infligés à votre Vitesse, cette dernière ne peut être réduite à moins de 1,5 m."
         ]
     }
 ]
