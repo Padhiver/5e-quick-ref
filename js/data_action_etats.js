@@ -3,7 +3,7 @@ data_action_etats = [
         title: "A terre",
         icon: "crawl",
         description: "Vous êtes étendu au sol.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 618.",
         bullets: [
             "Vous êtes pris au dépourvu et subissez un malus de circonstances de −2 à vos jets d’attaque.",
             "Les seules actions de déplacement que vous pouvez entreprendre quand vous êtes à terre sont Ramper ou Vous relever.",
@@ -16,7 +16,7 @@ data_action_etats = [
         title: "Accéléré",
         icon: "beams-aura",
         description: "Vous gagnez une action supplémentaire au début de votre tour à chaque round.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 618.",
         bullets: [
             "De nombreux effets qui vous accélèrent précisent le type d’actions que vous pouvez entreprendre avec cette action supplémentaire. Si plusieurs sources vous accélèrent, vous pouvez utiliser l’action supplémentaire que vous gagnez pour entreprendre n’importe quelle action permise par l’une de ces sources.",
             "Dans la mesure où l’état accéléré produit son effet au début de votre tour, vous ne gagnez pas immédiatement des actions si vous gagnez cet état lors de votre tour."
@@ -26,7 +26,7 @@ data_action_etats = [
         title: "Affaibli",
         icon: "death-juice",
         description: "Vous êtes physiquement affaibli.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 618.",
         bullets: [
             "L’état affaibli est toujours accompagné d’une intensité.",
             "Quand vous êtes affaibli, vous subissez un malus de statut égal à l’intensité de votre état qui s’applique à vos jets et vos DD basés sur la Force, dont les jets d’attaque basés sur la Force, les jets de dégâts basés sur la Force et les tests d’Athlétisme."
@@ -36,7 +36,7 @@ data_action_etats = [
         title: "Amical",
         icon: "three-friends",
         description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 618.",
         bullets: [
             "Une créature dont l’attitude est amicale envers un personnage l’apprécie. Le personnage peut tenter de Solliciter l’aide d’une créature amicale et celle-ci répondra probablement favorablement à une requête simple et dénuée de risque qui ne lui coûte pas trop.",
             "Si le personnage ou l’un de ses alliés entreprend une action hostile contre la créature, l’attitude de cette dernière se dégrade proportionnellement à l’hostilité de l’action."
@@ -46,7 +46,7 @@ data_action_etats = [
         title: "Aveugle",
         icon: "blindfold",
         description: "Vous ne pouvez pas voir.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 618.",
         bullets: [
             "Tous les terrains normaux sont pour vous des terrains difficiles.",
             "Vous ne pouvez rien détecter à l’aide de votre vue.",
@@ -59,7 +59,7 @@ data_action_etats = [
         title: "Blessé",
         icon: "ragged-wound",
         description: "Vous avez été gravement blessé.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 618.",
         bullets: [
             "Si vous perdez l’état mourant et que vous n’êtes pas encore dans l’état blessé, vous devenez blessé 1.",
             "Si vous êtes déjà dans l’état blessé quand vous perdez l’état mourant, l’intensité de votre état blessé augmente de 1.",
@@ -71,7 +71,7 @@ data_action_etats = [
         title: "Brisé",
         icon: "broken-skull",
         description: "Brisé est un état affectant les objets.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 618.",
         bullets: [
             "Un objet est brisé quand des dégâts ont réduit ses points de vie au niveau de son Seuil de rupture ou moins.",
             "On ne peut plus utiliser normalement un objet brisé, pas plus qu’il n’accorde de bonus, à l’exception d’une armure.",
@@ -84,7 +84,7 @@ data_action_etats = [
         title: "Caché",
         icon: "hidden",
         description: "Quand vous êtes caché d’une créature, celle-ci sait dans quel espace vous vous trouvez, mais elle ne peut pas dire précisément où vous vous trouvez.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 619.",
         bullets: [
             "Vous devenez généralement caché après avoir utilisé Discrétion pour Vous cacher.",
             "Quand vous Cherchez une créature en utilisant seulement des sens imprécis, celle-ci se trouve dans l’état caché plutôt qu’observé.",
@@ -96,7 +96,7 @@ data_action_etats = [
         title: "Condamné",
         icon: "grim-reaper",
         description: "Votre âme se trouve sous le joug d’une puissante force qui vous pousse toujours plus près de la mort.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 619.",
         bullets: [
             "L’état condamné est toujours accompagné d’une intensité. L’intensité maximale de l’état mourant à partir de laquelle vous mourez est diminuée de l’intensité de votre état condamné.",
             "Si votre intensité maximale d’état mourant est réduite à 0, vous mourez instantanément.",
@@ -107,7 +107,7 @@ data_action_etats = [
         title: "Confus",
         icon: "brain-freeze",
         description: "Vous êtes déconcerté et vous attaquez à l’aveuglette.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 619.",
         bullets: [
             "Vous êtes pris au dépourvu et ne considérez plus personne comme votre allié et vous ne pouvez pas utiliser les actions Retarder et Préparer ni utiliser de réactions.",
             "Vous utilisez toutes vos actions pour Frapper ou lancer des tours de magie offensifs. Le MJ peut cependant vous permettre de faire d’autres actions vous permettant d’attaquer plus facilement, comme dégainer une arme, vous rapprocher d’une cible pour qu’elle soit à portée, et ainsi de suite. Le MJ détermine vos cibles aléatoirement.",
@@ -120,7 +120,7 @@ data_action_etats = [
         title: "Contrôlé",
         icon: "brain-tentacle",
         description: "Quelqu’un prend des décisions à votre place, en exerçant généralement un contrôle sur vous par le biais d’une injonction ou d’une domination magique. ",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 619.",
         bullets: [
             "La créature qui vous contrôle décide de vos actions et peut vous faire utiliser n’importe quelle action, y compris des attaques, des réactions et même l’action Retarder.",
             "En outre, cette créature n’a généralement pas besoin de dépenser elle-même d’action pour vous contrôler."
@@ -130,7 +130,7 @@ data_action_etats = [
         title: "Dégâts persistants",
         icon: "burning-skull",
         description: "Les dégâts persistants sont causés par des effets comme l’acide, le feu ou de nombreuses autres choses.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 619.",
         bullets: [
             "Ils se présentent sous la forme « X dégâts persistants de [type] », où « X » représente la quantité de dégâts infligés et le « [type] » correspond au type de dégâts.",
             "Au lieu de recevoir immédiatement les dégâts persistants, vous les recevez à la fin de chacun de vos tours tant que vous vous trouvez dans cet état et vous devez à chaque fois relancer les dés de dégâts.",
@@ -141,7 +141,7 @@ data_action_etats = [
         title: "Drainé",
         icon: "fangs",
         description: "Vous vous affaiblissez quand une créature réussit à drainer votre sang ou votre force vitale.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 619.",
         bullets: [
             "L’état drainé est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à l’intensité de votre état drainé et qui s’applique à vos tests basés sur la Constitution, comme les jets de Vigueur.",
             "Vous perdez également une quantité de points de vie égale à votre niveau (avec un minimum de 1) multiplié par l’intensité de votre état drainé, et votre maximum de points de vie est réduit de ce montant. Par exemple, si vous subissez un effet qui vous inflige drainé 3 et que vous êtes un personnage de niveau 3, vous perdez 9 points de vie et réduisez votre maximum de points de vie de 9. Perdre de ces points de vie n’est pas considéré comme subir des dégâts.",
@@ -152,7 +152,7 @@ data_action_etats = [
         title: "Ébloui",
         icon: "lightning-tear",
         description: "Vos yeux ont été soumis à un excès de stimuli.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Si la vue est votre seul sens précis, toutes les créatures et les objets vous sont masqués."
         ]
@@ -161,7 +161,7 @@ data_action_etats = [
         title: "Effrayé",
         icon: "terror",
         description: "Vous êtes paralysé par la peur et vous luttez pour ne pas céder à la panique.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "L’état effrayé est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette valeur pour tous vos tests et DD.",
             "Sauf indication contraire, l’intensité de votre état effrayé décroît de 1 à la fin de chacun de vos tours."
@@ -171,7 +171,7 @@ data_action_etats = [
         title: "Empoigné",
         icon: "grab",
         description: "Vous êtes maintenu en place par une autre créature, ce qui vous confère les états pris au dépourvu et immobilisé.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Si vous entreprenez une action de manipulation pendant que vous êtes empoigné, vous devez réussir un test nu DD 5 ou perdre cette action. Vous faites le test après avoir dépensé l’action et avant que ses effets s’appliquent."
         ]
@@ -180,7 +180,7 @@ data_action_etats = [
         title: "En fuite",
         icon: "sprint",
         description: "La peur ou une autre forme de compulsion vous contraint à prendre la fuite.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Lors de votre tour, vous devez utiliser toutes vos actions pour tenter de vous éloigner de la source de votre état de fuite aussi rapidement que possible (en utilisant des actions de déplacement pour fuir ou ouvrir des portes qui vous barrent le chemin, par exemple).",
             "Cette source est généralement l’effet ou l’incantateur qui vous a imposé cet état. Cependant, certains effets peuvent désigner quelque chose d’autre comme source.",
@@ -191,7 +191,7 @@ data_action_etats = [
         title: "Entravé",
         icon: "manacles",
         description: "Vous êtes attaché et ne pouvez pas bouger, ou une créature vous a saisi et immobilisé.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Vous vous trouvez dans les états pris au dépourvu et immobilisé, et vous ne pouvez entreprendre aucune action dotée des traits attaque ou manipulation, sauf si vous tentez ainsi de Vous échapper ou d’Ouvrir vos liens de force.",
             "L’état entravé est prépondérant sur l’état empoigné."
@@ -201,7 +201,7 @@ data_action_etats = [
         title: "Étourdi",
         icon: "star-struck",
         description: "Vous êtes hébété.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Vous ne pouvez pas agir tant que vous êtes étourdi.",
             "L’état étourdi est toujours accompagné d’une intensité qui indique la quantité d’actions que vous perdez, parfois pendant plusieurs tours, du fait de cet état. À chaque fois que vous regagnez des actions (au début de votre tour, par exemple), vous réduisez la quantité d’actions regagnées de l’intensité de votre état étourdi, puis réduisez l’intensité de votre état par le nombre d’actions que vous avez perdues. Par exemple, si vous êtes étourdi 4, vous perdez vos 3 actions au début de votre tour et vous devenez alors étourdi 1. Lors de votre prochain tour, vous perdrez une action supplémentaire, puis vous pourrez utiliser vos 2 actions restantes normalement.",
@@ -213,7 +213,7 @@ data_action_etats = [
         title: "Fasciné",
         icon: "brass-eye",
         description: "Votre attention est irrésistiblement attirée par quelque chose et vous ne faites plus attention à ce qui se déroule autour de vous.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Vous subissez un malus de statut de −2 à vos tests de Perception et de compétences et vous ne pouvez pas entreprendre d’actions dotées du trait concentration, sauf si ces actions ou leurs conséquences sont liées à l’objet de votre fascination (avec l’accord du MJ). Par exemple, vous pourrez probablement Chercher et Vous souvenir de quelque chose par rapport au sujet de votre fascination, mais vous ne pourrez normalement pas lancer de sort ciblant une autre créature.",
             "Cet état prend fin si une créature entreprend une action hostile contre vous ou n’importe lequel de vos alliés."
@@ -223,7 +223,7 @@ data_action_etats = [
         title: "Fatigué",
         icon: "tired-eye",
         description: "Vous êtes fatigué et n’arrivez pas à rassembler vos forces.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Vous subissez un malus de statut de −1 à votre CA et à vos jets de sauvegarde.",
             "Quand vous explorez, vous ne pouvez pas choisir d’activité d’exploration.",
@@ -234,7 +234,7 @@ data_action_etats = [
         title: "Hostile",
         icon: "monster-grasp",
         description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Une créature hostile souhaite activement faire du mal au personnage qui lui inspire cette attitude. Elle ne l’attaquera pas nécessairement, mais refusera d’accéder aux Sollicitations de ce personnage."
         ]
@@ -243,7 +243,7 @@ data_action_etats = [
         title: "Immobilisé",
         icon: "imprisoned",
         description: "Vous ne pouvez entreprendre aucune action dotée du trait déplacement.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Si vous êtes immobilisé par quelque chose qui vous maintient en place et qu’une force extérieure tente de vous faire quitter votre espace, cette force doit réussir un test contre le DD de l’effet ou la défense adaptée (généralement le DD de Vigueur) du monstre qui vous maintient en place."
         ]
@@ -252,7 +252,7 @@ data_action_etats = [
         title: "Inamical",
         icon: "suspicious",
         description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Une créature inamicale n’apprécie pas un personnage en particulier et elle ne lui fait pas confiance. Elle refusera toutes les Sollicitations de ce personnage."
         ]
@@ -261,7 +261,7 @@ data_action_etats = [
         title: "Inaperçu",
         icon: "palm-tree",
         description: "Si vous êtes inaperçu aux yeux d’une créature, elle n’a aucune conscience de votre présence.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 620.",
         bullets: [
             "Quand vous êtes inaperçu par une créature, vous êtes également non détecté par elle.",
             "Cet état intervient dans le cadre de pouvoirs qui peuvent seulement être utilisés contre des cibles qui n’ont aucune conscience de votre présence."
@@ -271,7 +271,7 @@ data_action_etats = [
         title: "Inconscient",
         icon: "coma",
         description: "Vous dormez ou avez été assommé.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 621.",
         bullets: [
             "Vous ne pouvez pas faire d’action.",
             "Vous subissez un malus de −4 à votre CA, à votre Perception et à vos jets de Réflexes et vous vous trouvez dans les états aveugle et pris au dépourvu.",
@@ -293,7 +293,7 @@ data_action_etats = [
         title: "Indifférent",
         icon: "walk",
         description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 621.",
         bullets: [
             "Une créature indifférente n’a aucun préjugé positif ou négatif envers ce personnage.",
             "Sauf indication contraire, partez du principe que l’attitude par défaut d’une créature envers un personnage est indifférente."
@@ -303,7 +303,7 @@ data_action_etats = [
         title: "Invisible",
         icon: "invisible",
         description: "Vous ne pouvez pas être vu tant que vous êtes invisible.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 621.",
         bullets: [
             "Vous êtes non détecté aux yeux de tout le monde. Les créatures peuvent cependant vous Chercher pour tenter de vous détecter. Si une créature réussit un test de Perception opposé à votre DD de Discrétion, vous vous trouvez dans l’état caché par rapport à cette créature jusqu’à ce que vous fassiez preuve de Furtivité pour redevenir non détecté.",
             "Si vous devenez invisible alors que quelqu’un peut vous voir, vous commencez par vous trouver dans l’état caché par rapport à ce témoin (au lieu de non détecté) jusqu’à ce que vous vous déplaciez Furtivement.",
@@ -314,7 +314,7 @@ data_action_etats = [
         title: "Malade",
         icon: "dead-head",
         description: "Vous vous sentez malade.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 622.",
         bullets: [
             "L’état malade est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette valeur à tous vos tests et DD.",
             "Quand vous êtes malade, vous ne pouvez pas volontairement ingérer quelque chose, y compris des élixirs et des potions.",
@@ -325,7 +325,7 @@ data_action_etats = [
         title: "Maladroit",
         icon: "broken-axe",
         description: "Vos mouvements deviennent maladroits et incertains.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 622.",
         bullets: [
             "L’état maladroit est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à l’intensité de l’état et qui s’applique à vos tests et vos DD basés sur la Dextérité, comme votre CA, vos jets de Réflexes, vos jets d’attaque à distance et vos tests de compétences basés sur Acrobaties, Discrétion et Vol."
         ]
@@ -334,7 +334,7 @@ data_action_etats = [
         title: "Masqué",
         icon: "double-face-mask",
         description: "Tant que vous êtes masqué face à une créature (si vous êtes dans un épais brouillard, par exemple), cette créature a du mal à vous voir.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 622.",
         bullets: [
             "Vous pouvez toujours être observé, mais vous êtes plus difficile à cibler. Une créature face à laquelle vous êtes masqué doit réussir un test nu DD 5 pour pouvoir vous prendre pour cible avec une attaque, un sort ou un autre effet. Les zones d’effet ne sont pas sujettes à ce test nu. Si le test échoue, l’attaque, le sort ou l’effet ne vous affecte pas."
         ]
@@ -343,7 +343,7 @@ data_action_etats = [
         title: "Mourant",
         icon: "half-dead",
         description: "Vous vous videz de votre sang ou vous trouvez aux portes de la mort pour une autre raison.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 622.",
         bullets: [
             "Tant que vous êtes dans cet état, vous êtes inconscient.",
             "L’état mourant est toujours associé à une intensité et, si celle-ci atteint mourant 4, vous mourez.",
@@ -358,7 +358,7 @@ data_action_etats = [
         title: "Non detécté",
         icon: "ninja-mask",
         description: "Quand vous êtes non détecté par une créature, celle-ci ne peut pas vous voir du tout, elle n’a aucune idée de l’espace que vous occupez et elle ne peut pas vous prendre pour cible. Vous pouvez cependant toujours être affecté par les pouvoirs qui ciblent une zone.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 622.",
         bullets: [
             "Quand vous êtes non détecté par une créature, celle-ci se trouve prise au dépourvu face à vous.",
             "Une créature face à laquelle vous êtes non détecté peut tenter de deviner quelle case vous occupez afin de vous prendre pour cible. Elle doit alors désigner une case et tenter une attaque. Le fonctionnement est alors le même que pour cibler une créature cachée (qui nécessite de faire un test nu DD 11), mais le test nu et le jet d’attaque sont faits en secret par le MJ qui ne précise alors pas si l’attaque échoue à cause d’un échec du test nu, du jet d’attaque ou d’un mauvais choix de case. Une créature peut entreprendre l’action Chercher pour tenter de vous trouver."
@@ -368,7 +368,7 @@ data_action_etats = [
         title: "Observé",
         icon: "microscope",
         description: "Tout ce qui est clairement visible est observé en ce qui vous concerne.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 622.",
         bullets: [
             "Si une créature prend des dispositions pour éviter d’être détectée, en utilisant Discrétion pour Se cacher par exemple, elle peut devenir cachée ou non détectée au lieu d’observée.",
             "Si vous bénéficiez d’un autre sens précis à la place ou en plus de votre vue, vous pourrez peut-être observer cette créature ou cet objet à l’aide de ce sens.",
@@ -380,7 +380,7 @@ data_action_etats = [
         title: "Paralysé",
         icon: "internal-injury",
         description: "Votre corps est figé sur place.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 622.",
         bullets: [
             "Vous êtes pris au dépourvu et ne pouvez pas agir, sauf pour Vous souvenir de quelque chose et entreprendre des actions qui font seulement appel à votre esprit (ces actions sont déterminées par le MJ).",
             "Vos sens fonctionnent toujours, mais votre perception est limitée aux zones que vous pouvez percevoir sans bouger votre corps, vous n’êtes donc pas capable de Chercher."
@@ -390,7 +390,7 @@ data_action_etats = [
         title: "Pétrifié",
         icon: "stone-bust",
         description: "Vous avez été changé en pierre.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 623.",
         bullets: [
             "Vous ne pouvez pas agir ou sentir quoi que ce soit.",
             "Vous devenez un objet dont l’Encombrement est le double de votre Encombrement normal (généralement 12 pour une créature Moyenne pétrifiée ou 6 pour une Petite créature pétrifiée), avec CA 9, Solidité 8 et la même quantité de points de vie que vous aviez de votre vivant. Vous n’avez pas de Seuil de rupture.",
@@ -403,7 +403,7 @@ data_action_etats = [
         title: "Pris au dépourvu",
         icon: "surprised",
         description: "Vous êtes distrait, ou quelque chose d’autre vous empêche de vous concentrer entièrement sur vos défenses.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 623.",
         bullets: [
             "Vous subissez un malus de circonstances de −2 à votre CA.",
             "Certains effets vous confèrent l’état pris au dépourvu seulement face à certaines créatures ou certaines attaques. D’autres, notamment les états, vous rendent pris au dépourvu contre tout.",
@@ -415,7 +415,7 @@ data_action_etats = [
         title: "Ralenti",
         icon: "team-downgrade",
         description: "Vous perdez des actions.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 623.",
         bullets: [
             "L’état ralenti est toujours accompagné d’une intensité. Quand vous regagnez des actions au début de votre tour, vous réduisez la quantité d’actions que vous gagnez par l’intensité de votre état ralenti.",
             "Dans la mesure où l’état ralenti produit son effet au début de votre tour, vous ne perdez pas immédiatement des actions si vous gagnez cet état lors de votre tour."
@@ -425,7 +425,7 @@ data_action_etats = [
         title: "Serviable",
         icon: "paranoia",
         description: "Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 623.",
         bullets: [
             "Une créature serviable souhaite activement aider le personnage qui lui inspire cette attitude.",
             "Elle acceptera que ce personnage la Sollicite, tant que ces requêtes n’iront pas à l’encontre des objectifs ou de la qualité de vie de la créature serviable.",
@@ -436,7 +436,7 @@ data_action_etats = [
         title: "Sourd",
         icon: "human-ear",
         description: "Vous ne pouvez pas entendre.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 623.",
         bullets: [
             "Vous échouez automatiquement à tous les tests de Perception qui reposent sur votre audition.",
             "Vous subissez un malus de statut de −2 à vos tests de Perception destinés à déterminer l’initiative et aux tests en rapport avec le son et d’autres sens.",
@@ -447,7 +447,7 @@ data_action_etats = [
         title: "Stupéfié",
         icon: "brain-dump",
         description: "Vos pensées et votre instinct sont embrouillés.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 623.",
         bullets: [
             "L’état stupéfié est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette intensité qui s’applique à vos tests et vos DD basés sur l’Intelligence, la Sagesse et le Charisme, dont vos jets de Volonté, vos jets d’attaques de sorts, vos DD de sorts et vos tests de compétences basés sur ces caractéristiques.",
             "À chaque fois que vous tentez de Lancer un sort quand vous êtes stupéfié, ce sort est interrompu, sauf si vous réussissez un test nu dont le DD est égal à 5 + l’intensité de votre état stupéfié."
@@ -457,7 +457,7 @@ data_action_etats = [
         title: "Surchargé",
         icon: "weight-lifting-down",
         description: "Vous transportez plus de poids que vous ne pouvez en gérer.",
-        reference: "LDB, pg. 471.",
+        reference: "LDB, pg. 623.",
         bullets: [
             "Tant que vous êtes surchargé, vous êtes maladroit 1 et vous subissez un malus de 3 m à toutes vos Vitesses. Comme pour l’ensemble des malus infligés à votre Vitesse, cette dernière ne peut être réduite à moins de 1,5 m."
         ]
