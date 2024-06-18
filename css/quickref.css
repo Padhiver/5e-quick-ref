@@ -147,11 +147,11 @@
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: transparent ;
-    border-color: transparent ;
+    background-color: transparent;
+    border-color: transparent;
 }
 #section-reaction .text {
-    color: #69533c ;
+    color: #cfbea2;
 }
 
 #section-condition, #section-condition .item-icon {
@@ -254,7 +254,7 @@ p:first-child {
     background-clip: padding-box;
     outline: 0;
     box-shadow: 0 3px 9px rgba(0,0,0,.5);
-    color:#69533c
+    color:#cfbea2
 }
 
 .modal-footer {
