@@ -36,7 +36,7 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: #cfbea2
+    color: #cfbea2;
     font-size: 16pt;
 }
 
@@ -127,7 +127,7 @@
     border-color: transparent;
 }
 #section-movement .text {
-    color: #cfbea2
+    color: #cfbea2;
 }
 
 #section-action, #section-action .item-icon {
@@ -135,7 +135,7 @@
     border-color: transparent;
 }
 #section-action .text {
-    color: #cfbea2
+    color: #cfbea2;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
@@ -143,7 +143,7 @@
     border-color: transparent;
 }
 #section-bonus-action .text {
-    color: #cfbea2
+    color: #cfbea2;
 }
 
 #section-reaction, #section-reaction .item-icon {
@@ -159,7 +159,7 @@
     border-color: transparent;
 }
 #section-condition .text {
-    color: #cfbea2
+    color: #cfbea2;
 }
 
 #section-environment, #section-environment .item-icon {
@@ -167,7 +167,7 @@
     border-color: transparent;
 }
 #section-environment .text {
-    color: #cfbea2
+    color: #cfbea2;
 }
 
 
