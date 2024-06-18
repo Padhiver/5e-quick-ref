@@ -36,7 +36,7 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: #cfbea2;
+    color: #f1622f;
     font-size: 16pt;
 }
 
@@ -101,6 +101,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: #f1622f;
 }
 
 .item-desc {
