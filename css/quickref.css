@@ -178,9 +178,12 @@
 
 body {
     display: flex;
-    justify-content:center;
-    align-content:center;
+    justify-content: center;
+    align-content: center;
+    background-color: black; /* Ajoute un fond noir */
+    color: white; /* Change la couleur du texte en blanc pour un bon contraste */
 }
+
 
 /* ------------------------------------------------------------------------- */
 /* Misc */
